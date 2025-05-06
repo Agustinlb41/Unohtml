@@ -4,29 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Libreria online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
+  </head>
 <body class="fondo">
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top navcolor">
-    <a class="navbar-brand" href="#">Librería Online</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Catálogo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-      </ul>
-    </div>
+  <nav class="navbar navbar-expand-lg navcolor" aria-label="Ninth navbar example">
+     <div class="container-xl"> <a class="navbar-brand navtextcolor paddingright" href="index.html">Libreria LB</a> 
+      <button class="navbar-toggler buttoncolor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon buttoncolor"></span> 
+      </button> 
+      <div class="collapse navbar-collapse" id="navbarsExample07XL"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+        <li class="nav-item"> <a class="nav-link active navtextcolor hover" aria-current="page" href="index.html">Inicio</a> </li> 
+        <li class="nav-item"> <a class="nav-link navtextcolor" href="profile.html">Perfil</a> </li> 
+        <li class="nav-item"> <a class="nav-link disabled navtextcolor" aria-disabled="true">Disabled</a> </li> 
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle navtextcolor" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a> 
+        <ul class="dropdown-menu"> <li><a class="dropdown-item" href="#">Action</a></li> 
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li> </ul>
+        </li> </ul> <form role="search"> <input class="form-control" type="search" placeholder="Busqueda" aria-label="Search"> </form> </div> 
+    </div> 
   </nav>
   <main class="flex-grow-1">
   <div class="container my-6">
@@ -36,8 +31,58 @@
         <div class="card book-card">
           <img class="foto"  src="portada_en-agosto-nos-vemos-td_gabriel-garcia-marquez_202401121946.jpg" class="card-img-top" alt="Libro 1">
           <div class="card-body">
-            <h5 class="card-title">Título del Libro 1</h5>
-            <p class="card-text">Autor: Juan Pérez</p>
+            <h5 class="card-title">En aosto nos vemos</h5>
+            <p class="card-text">Autor: Gabriel garcia marquez</p>
+            <p class="card-text">Precio: $19.99</p>
+            <a href="#" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+        </div>
+      </div><div class="Margen col-md-3 mb-3">
+        <div class="card book-card">
+          <img class="foto"  src="libro2.jpg" class="card-img-top" alt="Libro 2">
+          <div class="card-body">
+            <h5 class="card-title">Hasta que el verano se acabe</h5>
+            <p class="card-text">Autor: Connor Hamilton</p>
+            <p class="card-text">Precio: $15.50</p>
+            <a href="#" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+        </div>
+      </div><div class="Margen col-md-3 mb-3">
+        <div class="card book-card">
+          <img class="foto"  src="libro3.jpg" class="card-img-top" alt="Libro 3">
+          <div class="card-body">
+            <h5 class="card-title">Mamá nos dijo adiós</h5>
+            <p class="card-text">Autor: Magdalena Latapi</p>
+            <p class="card-text">Precio: $25.00</p>
+            <a href="#" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+        </div>
+      </div><div class="Margen col-md-3 mb-3">
+        <div class="card book-card">
+          <img class="foto"  src="libro4.jpg" class="card-img-top" alt="Libro 4">
+          <div class="card-body">
+            <h5 class="card-title">El imperio de dos</h5>
+            <p class="card-text">Autor: Leo Beguín</p>
+            <p class="card-text">Precio: $19.99</p>
+            <a href="#" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+        </div>
+      </div><div class="Margen col-md-3 mb-3">
+        <div class="card book-card">
+          <img class="foto"  src="libro5.jpg" class="card-img-top" alt="Libro 5">
+          <div class="card-body">
+            <h5 class="card-title">La daga sin nombre</h5>
+            <p class="card-text">Autor: A.S Velada</p>
+            <p class="card-text">Precio: $19.99</p>
+            <a href="#" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+        </div>
+      </div><div class="Margen col-md-3 mb-3">
+        <div class="card book-card">
+          <img class="foto"  src="portada_en-agosto-nos-vemos-td_gabriel-garcia-marquez_202401121946.jpg" class="card-img-top" alt="Libro 1">
+          <div class="card-body">
+            <h5 class="card-title">En aosto nos vemos</h5>
+            <p class="card-text">Autor: Gabriel garcia marquez</p>
             <p class="card-text">Precio: $19.99</p>
             <a href="#" class="btn btn-primary btn-block">Comprar</a>
           </div>
@@ -45,22 +90,22 @@
       </div>
       <div class="Margen col-md-3 mb-3">
         <div class="card book-card">
-          <img class="foto" src="portada_en-agosto-nos-vemos-td_gabriel-garcia-marquez_202401121946.jpg" class="card-img-top" alt="Libro 2">
+          <img class="foto" src="libro2.jpg" class="card-img-top" alt="Libro 2">
           <div class="card-body">
-            <h5 class="card-title">Título del Libro 2</h5>
-            <p class="card-text">Autor: María García</p>
-            <p class="card-text">Precio: $14.50</p>
+            <h5 class="card-title">Hasta que el verano se acabe</h5>
+            <p class="card-text">Autor: Connor Hamilton</p>
+            <p class="card-text">Precio: $15.50</p>
             <a href="#" class="btn btn-primary btn-block">Comprar</a>
           </div>
         </div>
       </div>
       <div class="Margen col-md-3 mb-3">
         <div class="card book-card">
-          <img class="foto"  src="portada_en-agosto-nos-vemos-td_gabriel-garcia-marquez_202401121946.jpg" class="Foto card-img-top" alt="Libro 3">
+          <img class="foto"  src="libro3.jpg" class="Foto card-img-top" alt="Libro 3">
           <div class="card-body">
-            <h5 class="card-title">Título del Libro 3</h5>
-            <p class="card-text">Autor: Luis Martínez</p>
-            <p class="card-text">Precio: $22.00</p>
+            <h5 class="card-title">Mamá nos dijo adiós</h5>
+            <p class="card-text">Autor: Magdalena Latapi</p>
+            <p class="card-text">Precio: $25.00</p>
             <a href="#" class="btn btn-primary btn-block">Comprar</a>
           </div>
         </div>
@@ -70,7 +115,9 @@
 </main>
   <footer>
     <div class="container">
-      <p class="mb-0">© 2025 Librería Online - Todos los derechos reservados.</p>
+      <p class="mb-0">© 2025 Librería Online - Trabajo para la Universidad UNO.
+      </p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
